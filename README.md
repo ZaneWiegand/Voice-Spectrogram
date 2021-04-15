@@ -34,6 +34,6 @@ plt.figure(figsize=(20, 10))
 D = librosa.amplitude_to_db(np.abs(librosa.stft(data)), ref=np.max)
 librosa.display.specshow(D, y_axis='linear')
 plt.colorbar(format='%+2.0f dB')
-
+```
 ![2.png](https://github.com/Cocytus-Leon/FoodVoiceRecognition_2/blob/main/1.png)
 ![2.png](https://github.com/Cocytus-Leon/FoodVoiceRecognition_2/blob/main/2.png)
