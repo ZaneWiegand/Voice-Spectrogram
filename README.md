@@ -1,6 +1,6 @@
 # FoodVoiceRecognition_2
 声谱图
-声谱图
+
 此次学习如何利用librosa提取声音的声谱图
 声谱图（spectrogram）是声音或其他信号的频率随时间变化时的频谱（spectrum）的一种直观表示
 
@@ -35,3 +35,5 @@ D = librosa.amplitude_to_db(np.abs(librosa.stft(data)), ref=np.max)
 librosa.display.specshow(D, y_axis='linear')
 plt.colorbar(format='%+2.0f dB')
 
+![2.png](https://github.com/Cocytus-Leon/FoodVoiceRecognition_2/blob/main/1.png)
+![2.png](https://github.com/Cocytus-Leon/FoodVoiceRecognition_2/blob/main/2.png)
