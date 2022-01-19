@@ -1,4 +1,4 @@
-# FoodVoiceRecognition_2
+# Voice Spectrogram
 声谱图
 
 此次学习如何利用librosa提取声音的声谱图
